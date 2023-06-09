@@ -1,9 +1,10 @@
 ﻿using HR.LeaveManagement.Application.Contracts.Persistence;
+using HR.LeaveManagment.Domain.Common;
 using Microsoft.EntityFrameworkCore;
 
 namespace HR.LeaveManagment.Persistence.DataBaseContext.Repositories;
 
-public class GanericRepository<T> : IGenericRepository<T> where T : class
+public class GanericRepository<T> : IGenericRepository<T> where T : BaseEntity
 {
     protected readonly HrDatabaseContext _context;
     public GanericRepository(HrDatabaseContext context)
@@ -25,12 +26,14 @@ public class GanericRepository<T> : IGenericRepository<T> where T : class
 
     public async Task<IReadOnlyList<T>> GetAsync()
     {
-        return await _context.Set<T>().ToListAsync();
+        return await _context.Set<T>().AsNoTracking().ToListAsync();
     }
 
     public async Task<T> GetByIdAsync(int id)
     {
-        return await _context.Set<T>().FindAsync(id);
+        return await _context.Set<T>()
+            .AsNoTracking()
+            .FirstOrDefaultAsync(q => q.Id == id);
     }
 
     public async Task UpdateAsync(T entity)
