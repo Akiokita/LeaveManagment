@@ -1,0 +1,17 @@
+C:\Akio\Computação\Design Patterns\LeaveManagment\HR.LeaveManagment.Clean\HR.LeaveManagment.Persistence\bin\Debug\net7.0\HR.LeaveManagment.Persistence.deps.json
+C:\Akio\Computação\Design Patterns\LeaveManagment\HR.LeaveManagment.Clean\HR.LeaveManagment.Persistence\bin\Debug\net7.0\HR.LeaveManagment.Persistence.dll
+C:\Akio\Computação\Design Patterns\LeaveManagment\HR.LeaveManagment.Clean\HR.LeaveManagment.Persistence\bin\Debug\net7.0\HR.LeaveManagment.Persistence.pdb
+C:\Akio\Computação\Design Patterns\LeaveManagment\HR.LeaveManagment.Clean\HR.LeaveManagment.Persistence\bin\Debug\net7.0\HR.LeaveManagement.Application.dll
+C:\Akio\Computação\Design Patterns\LeaveManagment\HR.LeaveManagment.Clean\HR.LeaveManagment.Persistence\bin\Debug\net7.0\HR.LeaveManagment.Domain.dll
+C:\Akio\Computação\Design Patterns\LeaveManagment\HR.LeaveManagment.Clean\HR.LeaveManagment.Persistence\bin\Debug\net7.0\HR.LeaveManagement.Application.pdb
+C:\Akio\Computação\Design Patterns\LeaveManagment\HR.LeaveManagment.Clean\HR.LeaveManagment.Persistence\bin\Debug\net7.0\HR.LeaveManagment.Domain.pdb
+C:\Akio\Computação\Design Patterns\LeaveManagment\HR.LeaveManagment.Clean\HR.LeaveManagment.Persistence\obj\Debug\net7.0\HR.LeaveManagment.Persistence.csproj.AssemblyReference.cache
+C:\Akio\Computação\Design Patterns\LeaveManagment\HR.LeaveManagment.Clean\HR.LeaveManagment.Persistence\obj\Debug\net7.0\HR.LeaveManagment.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Akio\Computação\Design Patterns\LeaveManagment\HR.LeaveManagment.Clean\HR.LeaveManagment.Persistence\obj\Debug\net7.0\HR.LeaveManagment.Persistence.AssemblyInfoInputs.cache
+C:\Akio\Computação\Design Patterns\LeaveManagment\HR.LeaveManagment.Clean\HR.LeaveManagment.Persistence\obj\Debug\net7.0\HR.LeaveManagment.Persistence.AssemblyInfo.cs
+C:\Akio\Computação\Design Patterns\LeaveManagment\HR.LeaveManagment.Clean\HR.LeaveManagment.Persistence\obj\Debug\net7.0\HR.LeaveManagment.Persistence.csproj.CoreCompileInputs.cache
+C:\Akio\Computação\Design Patterns\LeaveManagment\HR.LeaveManagment.Clean\HR.LeaveManagment.Persistence\obj\Debug\net7.0\HR.LeaveManagment.Persistence.csproj.CopyComplete
+C:\Akio\Computação\Design Patterns\LeaveManagment\HR.LeaveManagment.Clean\HR.LeaveManagment.Persistence\obj\Debug\net7.0\HR.LeaveManagment.Persistence.dll
+C:\Akio\Computação\Design Patterns\LeaveManagment\HR.LeaveManagment.Clean\HR.LeaveManagment.Persistence\obj\Debug\net7.0\refint\HR.LeaveManagment.Persistence.dll
+C:\Akio\Computação\Design Patterns\LeaveManagment\HR.LeaveManagment.Clean\HR.LeaveManagment.Persistence\obj\Debug\net7.0\HR.LeaveManagment.Persistence.pdb
+C:\Akio\Computação\Design Patterns\LeaveManagment\HR.LeaveManagment.Clean\HR.LeaveManagment.Persistence\obj\Debug\net7.0\ref\HR.LeaveManagment.Persistence.dll

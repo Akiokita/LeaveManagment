@@ -1,0 +1,17 @@
+C:\Akio\Computação\Design Patterns\LeaveManagment\HR.LeaveManagment.Clean\Infrastructure\bin\Debug\net7.0\Infrastructure.deps.json
+C:\Akio\Computação\Design Patterns\LeaveManagment\HR.LeaveManagment.Clean\Infrastructure\bin\Debug\net7.0\Infrastructure.dll
+C:\Akio\Computação\Design Patterns\LeaveManagment\HR.LeaveManagment.Clean\Infrastructure\bin\Debug\net7.0\Infrastructure.pdb
+C:\Akio\Computação\Design Patterns\LeaveManagment\HR.LeaveManagment.Clean\Infrastructure\bin\Debug\net7.0\HR.LeaveManagement.Application.dll
+C:\Akio\Computação\Design Patterns\LeaveManagment\HR.LeaveManagment.Clean\Infrastructure\bin\Debug\net7.0\HR.LeaveManagment.Domain.dll
+C:\Akio\Computação\Design Patterns\LeaveManagment\HR.LeaveManagment.Clean\Infrastructure\bin\Debug\net7.0\HR.LeaveManagement.Application.pdb
+C:\Akio\Computação\Design Patterns\LeaveManagment\HR.LeaveManagment.Clean\Infrastructure\bin\Debug\net7.0\HR.LeaveManagment.Domain.pdb
+C:\Akio\Computação\Design Patterns\LeaveManagment\HR.LeaveManagment.Clean\Infrastructure\obj\Debug\net7.0\Infrastructure.csproj.AssemblyReference.cache
+C:\Akio\Computação\Design Patterns\LeaveManagment\HR.LeaveManagment.Clean\Infrastructure\obj\Debug\net7.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Akio\Computação\Design Patterns\LeaveManagment\HR.LeaveManagment.Clean\Infrastructure\obj\Debug\net7.0\Infrastructure.AssemblyInfoInputs.cache
+C:\Akio\Computação\Design Patterns\LeaveManagment\HR.LeaveManagment.Clean\Infrastructure\obj\Debug\net7.0\Infrastructure.AssemblyInfo.cs
+C:\Akio\Computação\Design Patterns\LeaveManagment\HR.LeaveManagment.Clean\Infrastructure\obj\Debug\net7.0\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Akio\Computação\Design Patterns\LeaveManagment\HR.LeaveManagment.Clean\Infrastructure\obj\Debug\net7.0\Infrastructure.csproj.CopyComplete
+C:\Akio\Computação\Design Patterns\LeaveManagment\HR.LeaveManagment.Clean\Infrastructure\obj\Debug\net7.0\Infrastructure.dll
+C:\Akio\Computação\Design Patterns\LeaveManagment\HR.LeaveManagment.Clean\Infrastructure\obj\Debug\net7.0\refint\Infrastructure.dll
+C:\Akio\Computação\Design Patterns\LeaveManagment\HR.LeaveManagment.Clean\Infrastructure\obj\Debug\net7.0\Infrastructure.pdb
+C:\Akio\Computação\Design Patterns\LeaveManagment\HR.LeaveManagment.Clean\Infrastructure\obj\Debug\net7.0\ref\Infrastructure.dll

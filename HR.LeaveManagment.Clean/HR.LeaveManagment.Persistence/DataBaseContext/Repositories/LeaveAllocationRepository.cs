@@ -19,27 +19,38 @@ public class LeaveAllocationRepository : GanericRepository<LeaveAllocation>, ILe
     public async Task<bool> AllocationExists(string userId, int leaveTypeId, int period)
     {
         return await _context.LeaveAllocations
-            .AnyAsync(q => q.LeaveTypeId == leaveTypeId
-                        && q.)
+                        .AnyAsync(q => q.LeaveTypeId == leaveTypeId
+                                  && q.EmployeeId == userId
+                                  && q.Period == period);
     }
 
-    public Task<LeaveAllocation> GetLeaveAllocationWithDetails(int id)
+    public async Task<LeaveAllocation> GetLeaveAllocationWithDetails(int id)
     {
-        throw new NotImplementedException();
+        return await _context.LeaveAllocations
+                            .Include(q => q.LeaveType)
+                            .FirstOrDefaultAsync(q => q.Id == id);
     }
 
-    public Task<List<LeaveAllocation>> GetLeaveAllocationWithDetails()
+    public async Task<List<LeaveAllocation>> GetLeaveAllocationWithDetails()
     {
-        throw new NotImplementedException();
+        return await _context.LeaveAllocations
+                        .Include(q => q.LeaveType)
+                        .ToListAsync();
     }
 
-    public Task<List<LeaveAllocation>> GetLeaveAllocationWithDetails(string userId)
+    public async Task<List<LeaveAllocation>> GetLeaveAllocationWithDetails(string userId)
     {
-        throw new NotImplementedException();
+        return await _context.LeaveAllocations
+                    .Where(q => q.EmployeeId == userId)
+                    .Include(q => q.LeaveType)
+                    .ToListAsync();
     }
 
     public Task<LeaveAllocation> GetUserAllocations(string userId, int leaveTypeId)
     {
-        throw new NotImplementedException();
+        return _context.LeaveAllocations
+                .Where(q => q.EmployeeId == userId && q.LeaveTypeId == leaveTypeId)
+                .Include(q => q.LeaveType)
+                .FirstOrDefaultAsync();
     }
 }

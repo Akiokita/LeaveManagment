@@ -10,7 +10,7 @@ namespace HR.LeaveManagment.Persistence.Configurations
         public void Configure(EntityTypeBuilder<LeaveType> builder)
         {
             builder.HasData(
-                new LeaveType
+                new LeaveType   
                 {
                     Id = 1,
                     Name = "Vacation",

@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = HR.LeaveManagement.Application
-build_property.ProjectDir = C:\Users\dalto\source\repos\LeaveManagment\HR.LeaveManagment.Clean\HR.LeaveManagement.Application\
+build_property.ProjectDir = C:\Akio\Computação\Design Patterns\LeaveManagment\HR.LeaveManagment.Clean\HR.LeaveManagement.Application\

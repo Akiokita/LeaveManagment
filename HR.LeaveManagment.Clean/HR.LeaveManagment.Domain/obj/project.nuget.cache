@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kX2Ud0qFDL4EwXDoNyZ4GiiCrsVmK+8DvMM8C3W4CvSfxEPaKVrbQDusv4dw2xhgjK5JB+cqWDKxXbvzDmfFtQ==",
+  "dgSpecHash": "GlzuOUXXoR+gpf9bPUpVbkQsqOu5vY/Ho4lbv1g0oKvXVm3Sky2rNYIY6724y7duHc+R44amrZb8z5dRquwIug==",
   "success": true,
-  "projectFilePath": "C:\\Users\\dalto\\source\\repos\\LeaveManagment\\HR.LeaveManagment.Clean\\HR.LeaveManagment.Domain\\HR.LeaveManagment.Domain.csproj",
+  "projectFilePath": "C:\\Akio\\Computação\\Design Patterns\\LeaveManagment\\HR.LeaveManagment.Clean\\HR.LeaveManagment.Domain\\HR.LeaveManagment.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

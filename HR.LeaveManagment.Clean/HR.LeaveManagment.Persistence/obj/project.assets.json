@@ -3529,24 +3529,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\dalto\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\dalto\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dalto\\source\\repos\\LeaveManagment\\HR.LeaveManagment.Clean\\HR.LeaveManagment.Persistence\\HR.LeaveManagment.Persistence.csproj",
+      "projectUniqueName": "C:\\Akio\\Computação\\Design Patterns\\LeaveManagment\\HR.LeaveManagment.Clean\\HR.LeaveManagment.Persistence\\HR.LeaveManagment.Persistence.csproj",
       "projectName": "HR.LeaveManagment.Persistence",
-      "projectPath": "C:\\Users\\dalto\\source\\repos\\LeaveManagment\\HR.LeaveManagment.Clean\\HR.LeaveManagment.Persistence\\HR.LeaveManagment.Persistence.csproj",
+      "projectPath": "C:\\Akio\\Computação\\Design Patterns\\LeaveManagment\\HR.LeaveManagment.Clean\\HR.LeaveManagment.Persistence\\HR.LeaveManagment.Persistence.csproj",
       "packagesPath": "C:\\Users\\dalto\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dalto\\source\\repos\\LeaveManagment\\HR.LeaveManagment.Clean\\HR.LeaveManagment.Persistence\\obj\\",
+      "outputPath": "C:\\Akio\\Computação\\Design Patterns\\LeaveManagment\\HR.LeaveManagment.Clean\\HR.LeaveManagment.Persistence\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
         "C:\\Users\\dalto\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3554,15 +3549,14 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\dalto\\source\\repos\\LeaveManagment\\HR.LeaveManagment.Clean\\HR.LeaveManagement.Application\\HR.LeaveManagement.Application.csproj": {
-              "projectPath": "C:\\Users\\dalto\\source\\repos\\LeaveManagment\\HR.LeaveManagment.Clean\\HR.LeaveManagement.Application\\HR.LeaveManagement.Application.csproj"
+            "C:\\Akio\\Computação\\Design Patterns\\LeaveManagment\\HR.LeaveManagment.Clean\\HR.LeaveManagement.Application\\HR.LeaveManagement.Application.csproj": {
+              "projectPath": "C:\\Akio\\Computação\\Design Patterns\\LeaveManagment\\HR.LeaveManagment.Clean\\HR.LeaveManagement.Application\\HR.LeaveManagement.Application.csproj"
             }
           }
         }
@@ -3602,7 +3596,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
       }
     }
   }

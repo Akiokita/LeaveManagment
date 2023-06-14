@@ -10,3 +10,15 @@ C:\Users\dalto\source\repos\HR.LeaveManagment.Clean\HR.LeaveManagment.Domain\obj
 C:\Users\dalto\source\repos\HR.LeaveManagment.Clean\HR.LeaveManagment.Domain\obj\Debug\net7.0\refint\HR.LeaveManagment.Domain.dll
 C:\Users\dalto\source\repos\HR.LeaveManagment.Clean\HR.LeaveManagment.Domain\obj\Debug\net7.0\HR.LeaveManagment.Domain.pdb
 C:\Users\dalto\source\repos\HR.LeaveManagment.Clean\HR.LeaveManagment.Domain\obj\Debug\net7.0\ref\HR.LeaveManagment.Domain.dll
+C:\Akio\Computação\Design Patterns\LeaveManagment\HR.LeaveManagment.Clean\HR.LeaveManagment.Domain\bin\Debug\net7.0\HR.LeaveManagment.Domain.deps.json
+C:\Akio\Computação\Design Patterns\LeaveManagment\HR.LeaveManagment.Clean\HR.LeaveManagment.Domain\bin\Debug\net7.0\HR.LeaveManagment.Domain.dll
+C:\Akio\Computação\Design Patterns\LeaveManagment\HR.LeaveManagment.Clean\HR.LeaveManagment.Domain\bin\Debug\net7.0\HR.LeaveManagment.Domain.pdb
+C:\Akio\Computação\Design Patterns\LeaveManagment\HR.LeaveManagment.Clean\HR.LeaveManagment.Domain\obj\Debug\net7.0\HR.LeaveManagment.Domain.csproj.AssemblyReference.cache
+C:\Akio\Computação\Design Patterns\LeaveManagment\HR.LeaveManagment.Clean\HR.LeaveManagment.Domain\obj\Debug\net7.0\HR.LeaveManagment.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Akio\Computação\Design Patterns\LeaveManagment\HR.LeaveManagment.Clean\HR.LeaveManagment.Domain\obj\Debug\net7.0\HR.LeaveManagment.Domain.AssemblyInfoInputs.cache
+C:\Akio\Computação\Design Patterns\LeaveManagment\HR.LeaveManagment.Clean\HR.LeaveManagment.Domain\obj\Debug\net7.0\HR.LeaveManagment.Domain.AssemblyInfo.cs
+C:\Akio\Computação\Design Patterns\LeaveManagment\HR.LeaveManagment.Clean\HR.LeaveManagment.Domain\obj\Debug\net7.0\HR.LeaveManagment.Domain.csproj.CoreCompileInputs.cache
+C:\Akio\Computação\Design Patterns\LeaveManagment\HR.LeaveManagment.Clean\HR.LeaveManagment.Domain\obj\Debug\net7.0\HR.LeaveManagment.Domain.dll
+C:\Akio\Computação\Design Patterns\LeaveManagment\HR.LeaveManagment.Clean\HR.LeaveManagment.Domain\obj\Debug\net7.0\refint\HR.LeaveManagment.Domain.dll
+C:\Akio\Computação\Design Patterns\LeaveManagment\HR.LeaveManagment.Clean\HR.LeaveManagment.Domain\obj\Debug\net7.0\HR.LeaveManagment.Domain.pdb
+C:\Akio\Computação\Design Patterns\LeaveManagment\HR.LeaveManagment.Clean\HR.LeaveManagment.Domain\obj\Debug\net7.0\ref\HR.LeaveManagment.Domain.dll
