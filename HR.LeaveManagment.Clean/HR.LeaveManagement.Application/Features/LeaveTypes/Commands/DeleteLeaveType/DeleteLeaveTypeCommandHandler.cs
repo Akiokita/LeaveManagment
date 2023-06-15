@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using HR.LeaveManagement.Application.Contracts.Logging;
 using HR.LeaveManagement.Application.Contracts.Persistence;
 using HR.LeaveManagement.Application.Exceptions;
 using HR.LeaveManagment.Domain;
@@ -9,11 +10,12 @@ public class DeleteLeaveTypeCommandHandler : IRequestHandler<DeleteLeaveTypeComm
 {
     private readonly IMapper _mapper;
     private readonly ILeaveTypeRepository _leaveTypeRepository;
-
-    public DeleteLeaveTypeCommandHandler(IMapper mapper, ILeaveTypeRepository leaveTypeRepository)
+    private readonly IAppLogger<DeleteLeaveTypeCommandHandler> _logger;
+    public DeleteLeaveTypeCommandHandler(IMapper mapper, ILeaveTypeRepository leaveTypeRepository, IAppLogger<DeleteLeaveTypeCommandHandler> logger)
     {
         _mapper = mapper;
         _leaveTypeRepository = leaveTypeRepository;
+        _logger = logger;
     }
     public async Task<Unit> Handle(DeleteLeaveTypeCommand request, CancellationToken cancellationToken)
     {

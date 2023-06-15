@@ -23,10 +23,29 @@ namespace Infrastructure.EmailService
                 Name = _emailSettings.FromName
             };
 
-            var message = new MailHelper.CreateSingleEmail(from, to, email.Subject, email.Body, email.Body);
+            var message =   CreateSingleEmail(from, to, email.Subject, email.Body, email.Body);
             var response = await client.SendEmailAsync(message);
 
-            return response.StatusCode == System.Net.HttpStatusCode.OK || response.StatusCode == System.Net.HttpStatusCode.Accepted;
+            return response.IsSuccessStatusCode;
+        }
+
+        public SendGridMessage CreateSingleEmail(EmailAddress from, EmailAddress to, string subject, string plainTextContent, string htmlContent)
+        {
+            SendGridMessage sendGridMessage = new SendGridMessage();
+            sendGridMessage.SetFrom(from);
+            sendGridMessage.SetSubject(subject);
+            if (!string.IsNullOrEmpty(plainTextContent))
+            {
+                sendGridMessage.AddContent(MimeType.Text, plainTextContent);
+            }
+
+            if (!string.IsNullOrEmpty(htmlContent))
+            {
+                sendGridMessage.AddContent(MimeType.Html, htmlContent);
+            }
+
+            sendGridMessage.AddTo(to);
+            return sendGridMessage;
         }
     }
 }
