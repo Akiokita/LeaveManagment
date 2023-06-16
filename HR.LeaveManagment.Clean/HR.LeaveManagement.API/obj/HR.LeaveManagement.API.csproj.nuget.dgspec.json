@@ -1,0 +1,379 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Akio\\Computação\\Design Patterns\\LeaveManagment\\HR.LeaveManagment.Clean\\HR.LeaveManagement.API\\HR.LeaveManagement.API.csproj": {}
+  },
+  "projects": {
+    "C:\\Akio\\Computação\\Design Patterns\\LeaveManagment\\HR.LeaveManagment.Clean\\HR.LeaveManagement.API\\HR.LeaveManagement.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Akio\\Computação\\Design Patterns\\LeaveManagment\\HR.LeaveManagment.Clean\\HR.LeaveManagement.API\\HR.LeaveManagement.API.csproj",
+        "projectName": "HR.LeaveManagement.API",
+        "projectPath": "C:\\Akio\\Computação\\Design Patterns\\LeaveManagment\\HR.LeaveManagment.Clean\\HR.LeaveManagement.API\\HR.LeaveManagement.API.csproj",
+        "packagesPath": "C:\\Users\\dalto\\.nuget\\packages\\",
+        "outputPath": "C:\\Akio\\Computação\\Design Patterns\\LeaveManagment\\HR.LeaveManagment.Clean\\HR.LeaveManagement.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\dalto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Akio\\Computação\\Design Patterns\\LeaveManagment\\HR.LeaveManagment.Clean\\HR.LeaveManagement.Application\\HR.LeaveManagement.Application.csproj": {
+                "projectPath": "C:\\Akio\\Computação\\Design Patterns\\LeaveManagment\\HR.LeaveManagment.Clean\\HR.LeaveManagement.Application\\HR.LeaveManagement.Application.csproj"
+              },
+              "C:\\Akio\\Computação\\Design Patterns\\LeaveManagment\\HR.LeaveManagment.Clean\\HR.LeaveManagment.Persistence\\HR.LeaveManagment.Persistence.csproj": {
+                "projectPath": "C:\\Akio\\Computação\\Design Patterns\\LeaveManagment\\HR.LeaveManagment.Clean\\HR.LeaveManagment.Persistence\\HR.LeaveManagment.Persistence.csproj"
+              },
+              "C:\\Akio\\Computação\\Design Patterns\\LeaveManagment\\HR.LeaveManagment.Clean\\Infrastructure\\HR.LeaveManagment.Infrastructure.csproj": {
+                "projectPath": "C:\\Akio\\Computação\\Design Patterns\\LeaveManagment\\HR.LeaveManagment.Clean\\Infrastructure\\HR.LeaveManagment.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.7, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Akio\\Computação\\Design Patterns\\LeaveManagment\\HR.LeaveManagment.Clean\\HR.LeaveManagement.Application\\HR.LeaveManagement.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Akio\\Computação\\Design Patterns\\LeaveManagment\\HR.LeaveManagment.Clean\\HR.LeaveManagement.Application\\HR.LeaveManagement.Application.csproj",
+        "projectName": "HR.LeaveManagement.Application",
+        "projectPath": "C:\\Akio\\Computação\\Design Patterns\\LeaveManagment\\HR.LeaveManagment.Clean\\HR.LeaveManagement.Application\\HR.LeaveManagement.Application.csproj",
+        "packagesPath": "C:\\Users\\dalto\\.nuget\\packages\\",
+        "outputPath": "C:\\Akio\\Computação\\Design Patterns\\LeaveManagment\\HR.LeaveManagment.Clean\\HR.LeaveManagement.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\dalto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Akio\\Computação\\Design Patterns\\LeaveManagment\\HR.LeaveManagment.Clean\\HR.LeaveManagment.Domain\\HR.LeaveManagment.Domain.csproj": {
+                "projectPath": "C:\\Akio\\Computação\\Design Patterns\\LeaveManagment\\HR.LeaveManagment.Clean\\HR.LeaveManagment.Domain\\HR.LeaveManagment.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.5.2, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.5.2, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Akio\\Computação\\Design Patterns\\LeaveManagment\\HR.LeaveManagment.Clean\\HR.LeaveManagment.Domain\\HR.LeaveManagment.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Akio\\Computação\\Design Patterns\\LeaveManagment\\HR.LeaveManagment.Clean\\HR.LeaveManagment.Domain\\HR.LeaveManagment.Domain.csproj",
+        "projectName": "HR.LeaveManagment.Domain",
+        "projectPath": "C:\\Akio\\Computação\\Design Patterns\\LeaveManagment\\HR.LeaveManagment.Clean\\HR.LeaveManagment.Domain\\HR.LeaveManagment.Domain.csproj",
+        "packagesPath": "C:\\Users\\dalto\\.nuget\\packages\\",
+        "outputPath": "C:\\Akio\\Computação\\Design Patterns\\LeaveManagment\\HR.LeaveManagment.Clean\\HR.LeaveManagment.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\dalto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Akio\\Computação\\Design Patterns\\LeaveManagment\\HR.LeaveManagment.Clean\\HR.LeaveManagment.Persistence\\HR.LeaveManagment.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Akio\\Computação\\Design Patterns\\LeaveManagment\\HR.LeaveManagment.Clean\\HR.LeaveManagment.Persistence\\HR.LeaveManagment.Persistence.csproj",
+        "projectName": "HR.LeaveManagment.Persistence",
+        "projectPath": "C:\\Akio\\Computação\\Design Patterns\\LeaveManagment\\HR.LeaveManagment.Clean\\HR.LeaveManagment.Persistence\\HR.LeaveManagment.Persistence.csproj",
+        "packagesPath": "C:\\Users\\dalto\\.nuget\\packages\\",
+        "outputPath": "C:\\Akio\\Computação\\Design Patterns\\LeaveManagment\\HR.LeaveManagment.Clean\\HR.LeaveManagment.Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\dalto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Akio\\Computação\\Design Patterns\\LeaveManagment\\HR.LeaveManagment.Clean\\HR.LeaveManagement.Application\\HR.LeaveManagement.Application.csproj": {
+                "projectPath": "C:\\Akio\\Computação\\Design Patterns\\LeaveManagment\\HR.LeaveManagment.Clean\\HR.LeaveManagement.Application\\HR.LeaveManagement.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Akio\\Computação\\Design Patterns\\LeaveManagment\\HR.LeaveManagment.Clean\\Infrastructure\\HR.LeaveManagment.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Akio\\Computação\\Design Patterns\\LeaveManagment\\HR.LeaveManagment.Clean\\Infrastructure\\HR.LeaveManagment.Infrastructure.csproj",
+        "projectName": "HR.LeaveManagment.Infrastructure",
+        "projectPath": "C:\\Akio\\Computação\\Design Patterns\\LeaveManagment\\HR.LeaveManagment.Clean\\Infrastructure\\HR.LeaveManagment.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\dalto\\.nuget\\packages\\",
+        "outputPath": "C:\\Akio\\Computação\\Design Patterns\\LeaveManagment\\HR.LeaveManagment.Clean\\Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\dalto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Akio\\Computação\\Design Patterns\\LeaveManagment\\HR.LeaveManagment.Clean\\HR.LeaveManagement.Application\\HR.LeaveManagement.Application.csproj": {
+                "projectPath": "C:\\Akio\\Computação\\Design Patterns\\LeaveManagment\\HR.LeaveManagment.Clean\\HR.LeaveManagement.Application\\HR.LeaveManagement.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "SendGrid": {
+              "target": "Package",
+              "version": "[9.28.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

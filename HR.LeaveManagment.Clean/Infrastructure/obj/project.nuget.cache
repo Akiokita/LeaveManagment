@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PVc9JhwQZ8stqTBe3KIHA+oMNRJi3UlA89+FEeNtONdN43g60T4/HR2C+mn0iVMsk5ygRrsUU4KekH1+fLCbGQ==",
+  "dgSpecHash": "ZentL9nOiJFN3o7BdgaLGkUpQ1D4y+Lb0E5OgBjrPDNqGjtIqcmtPQbTCvJp3/3QTf2AffgOkLKaZO0mC2+G+Q==",
   "success": true,
-  "projectFilePath": "C:\\Akio\\Computação\\Design Patterns\\LeaveManagment\\HR.LeaveManagment.Clean\\Infrastructure\\Infrastructure.csproj",
+  "projectFilePath": "C:\\Akio\\Computação\\Design Patterns\\LeaveManagment\\HR.LeaveManagment.Clean\\Infrastructure\\HR.LeaveManagment.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dalto\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\dalto\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
@@ -14,8 +14,10 @@
     "C:\\Users\\dalto\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\dalto\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\dalto\\.nuget\\packages\\microsoft.extensions.configuration.binder\\7.0.0\\microsoft.extensions.configuration.binder.7.0.0.nupkg.sha512",
+    "C:\\Users\\dalto\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
     "C:\\Users\\dalto\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
-    "C:\\Users\\dalto\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.1\\microsoft.extensions.logging.abstractions.7.0.1.nupkg.sha512",
+    "C:\\Users\\dalto\\.nuget\\packages\\microsoft.extensions.logging\\7.0.0\\microsoft.extensions.logging.7.0.0.nupkg.sha512",
+    "C:\\Users\\dalto\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\dalto\\.nuget\\packages\\microsoft.extensions.options\\7.0.0\\microsoft.extensions.options.7.0.0.nupkg.sha512",
     "C:\\Users\\dalto\\.nuget\\packages\\microsoft.extensions.options.configurationextensions\\7.0.0\\microsoft.extensions.options.configurationextensions.7.0.0.nupkg.sha512",
     "C:\\Users\\dalto\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
