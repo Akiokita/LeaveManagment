@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "fWI9OCowK06zxhtrVDjaEj9bXqXEPEd8wf6I94r45ic2cnkyl6Jw5FDHl8zOxc5LxIx6VYz5uG7V2wZmMjMQwg==",
+  "dgSpecHash": "m1nvYW0KpSI25M1X02XWFWrsRDaJvZRaIko1JJwXo2Jy6XT7QuJ9spPgAL30yNg+AX05zl7V7WJZBMY2ucLl2Q==",
   "success": true,
   "projectFilePath": "C:\\Akio\\Computação\\Design Patterns\\LeaveManagment\\HR.LeaveManagment.Clean\\HR.LeaveManagement.API\\HR.LeaveManagement.API.csproj",
   "expectedPackageFiles": [
@@ -14,6 +14,7 @@
     "C:\\Users\\dalto\\.nuget\\packages\\mediatr\\11.0.0\\mediatr.11.0.0.nupkg.sha512",
     "C:\\Users\\dalto\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
     "C:\\Users\\dalto\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.1.0\\mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
+    "C:\\Users\\dalto\\.nuget\\packages\\microsoft.aspnetcore.authentication.certificate\\7.0.7\\microsoft.aspnetcore.authentication.certificate.7.0.7.nupkg.sha512",
     "C:\\Users\\dalto\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.7\\microsoft.aspnetcore.openapi.7.0.7.nupkg.sha512",
     "C:\\Users\\dalto\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\dalto\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

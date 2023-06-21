@@ -1,13 +1,18 @@
 using HR.LeaveManagement.Application;
 using HR.LeaveManagment.Persistence;
 using Infrastructure;
+using Microsoft.AspNetCore.Authentication.Certificate;
 
 var builder = WebApplication.CreateBuilder(args);
 var configuration = builder.Configuration;
+
 // Add services to the container.
 builder.Services.AddApplicationServices();
 builder.Services.AddInfrastructureServices(configuration);
 builder.Services.AddPersistenceServices(configuration);
+builder.Services.AddAuthentication(
+        CertificateAuthenticationDefaults.AuthenticationScheme)
+        .AddCertificate();
 
 builder.Services.AddControllers();
 

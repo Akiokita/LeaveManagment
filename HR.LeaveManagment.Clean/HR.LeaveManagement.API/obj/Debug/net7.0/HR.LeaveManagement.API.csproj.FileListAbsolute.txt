@@ -92,3 +92,4 @@ C:\Akio\Computação\Design Patterns\LeaveManagment\HR.LeaveManagment.Clean\HR.L
 C:\Akio\Computação\Design Patterns\LeaveManagment\HR.LeaveManagment.Clean\HR.LeaveManagement.API\obj\Debug\net7.0\HR.LeaveManagement.API.pdb
 C:\Akio\Computação\Design Patterns\LeaveManagment\HR.LeaveManagment.Clean\HR.LeaveManagement.API\obj\Debug\net7.0\HR.LeaveManagement.API.genruntimeconfig.cache
 C:\Akio\Computação\Design Patterns\LeaveManagment\HR.LeaveManagment.Clean\HR.LeaveManagement.API\obj\Debug\net7.0\ref\HR.LeaveManagement.API.dll
+C:\Akio\Computação\Design Patterns\LeaveManagment\HR.LeaveManagment.Clean\HR.LeaveManagement.API\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.Certificate.dll
